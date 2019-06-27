@@ -1,9 +1,7 @@
-mod decimal;
+mod order;
 
-use decimal::Decimal;
+use order::OrderBook;
 
 fn main() {
-    let n = Decimal::new(1, 1);
-    println!("{}", n); 
 }
 
